@@ -33,16 +33,16 @@
                         <a class="nav-link primary-color active" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item p-3">
-                        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                        <a class="nav-link active" aria-current="page" href="#skill">SKILLS</a>
                     </li>
                     <li class="nav-item p-3">
-                        <a class="nav-link" href="#">RESUME</a>
+                        <a class="nav-link" href="#bio">ABOUT ME</a>
                     </li>
                     <li class="nav-item p-3">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#education">EDUCATION</a>
                     </li>
                     <li class="nav-item p-3">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -100,16 +100,21 @@
 
                 <div class="col-lg-6 col-md-4">
                     <div class=" title-image ">
-                        <img class="bg-image" src="/Image/shubh-removebg-preview-removebg-preview.png" alt="Image">
+                        <img class="bg-image" src="/Image/title-img.png" alt="Image">
                     </div>
                 </div>
+
+                <div class="arrow bounce">
+                    <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!--SKILLS section -->
 
-    <section class="section-portfolio">
+    <section class="section-portfolio" id="skill">
         <div class="container-fluid">
             <div class="skill">
                 <p class="big-text">skills</p>
@@ -220,15 +225,14 @@
 
     <!-- Education section -->
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid" id="education">
             <div class="row Education">
-                <h1 class="skill-heading1">Education<p class="big-text2">Bio</p>
+                <h1 class="education-heading1">Education<p class="big-text2">Education</p>
                 </h1>
-                <h1 style="color: white;">Education </h1>
 
                 <div class="card mb-3 main-card">
                     <!-- <img src="/Image/ShubhamKumar-removebg-preview.png" class="card-img-top" alt="..."> -->
-                    <div class="card-body p-5 m-2">
+                    <div class="card-body p-3 m-2">
                         <h5 class="card-title">2017-2020</h5>
                         <p class="card-text">Bachelor's of Computer Application</p>
                         <p class="card-text"><small class="text-muted">DAV College, Jalandhar</small></p>
@@ -238,7 +242,7 @@
                         </div> -->
                 </div>
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body p-3 m">
                         <h5 class="card-title">2015-2017</h5>
                         <p class="card-text">10+2</p>
                         <p class="card-text"><small class="text-muted">D.S.S.D Sen Sec School, Jalandhar</small></p>
@@ -252,13 +256,15 @@
 
 
     <!-- Project Section -->
-    <section class="">
+    <section id="project">
         <div class="container-fluid project-section">
-            <h1 class="project-heading">Projects<p class="big-text2">Projects</p></h1>
+            <h1 class="project-heading">Projects<p class="big-text2">Projects</p>
+            </h1>
             <div class="row">
                 <div class="col-lg-6 ">
                     <div class="project">
-                        <a href="https://finstro.netlify.app/"><img class="projectImg" src="/Image/Capture.PNG" alt=""></a>
+                        <a href="https://finstro.netlify.app/"><img class="projectImg" src="/Image/Capture.PNG"
+                                alt=""></a>
                         <div class="project-desc">
                             <h1>Finstro.com</h1>
                             <p>Project 1 </p>
@@ -280,7 +286,7 @@
     </section>
     <!-- end Project Section -->
 
-    <div class="container-fluid contact">
+    <div class="container-fluid contact" id="contact">
         <h1 class="contact-heading">Message me</h1>
 
         <form action="#" class=" p-4 p-md-5 contact-form">
