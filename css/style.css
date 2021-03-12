@@ -208,7 +208,6 @@ display: flex; */
 .bio-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    size: ;
     padding: 10% 7% 7% 7%;
     line-height: 2;
 }
@@ -219,6 +218,10 @@ display: flex; */
     color: white;
 }
 
+.bio .fab{
+    bottom: 0px;  
+    color: white ;   
+}
 .icons {
     float: left;
     position: relative;
@@ -226,6 +229,14 @@ display: flex; */
     padding-left: 5%;
 }
 
+.bio-icons .fab {
+    bottom: 0px;     
+}
+
+.bio-icons .fas {
+    bottom: 0px;     
+    
+}
 .resume-button {
     /* display: block; */
     position: relative;
@@ -257,10 +268,6 @@ display: flex; */
 
 .art-cloud a:hover {
     color: #affc41;
-}
-
-.fa-instagram {
-    color: white !important;
 }
 
 .img-2 {
@@ -402,7 +409,7 @@ display: flex; */
 
 .fab, .fas {
     position: relative;
-    /* bottom: 55px; */
+    bottom: 55px;
     right: 4px;
     padding: 15px;
     font-size: 20px;
